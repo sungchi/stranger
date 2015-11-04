@@ -10,13 +10,38 @@
 
 <meta http-equiv="cleartype" content="on">
 <link rel="shortcut icon" href="./Icon.png">
-
+<style>
+  .box { height: 400px;
+    width: 190px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+  }
+  .box a {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-bottom: 1em; 
+  }
+  .box img { display: block; }
+  .ios { margin-bottom: 1.1em; }
+</style>
 </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<img src="./ios.png" alt="iOS Stranger Icon">
-<img src="./android.png" alt="Adroid Stranger Icon">
+<div class="box">
+  <a href="" target="_blank">
+  <img src="./ios.png" alt="iOS Stranger Icon" class="ios"> Stranger for iOS
+  </a>
+  <a href="" target="_blank">
+  <img src="./android.png" alt="Adroid Stranger Icon" class="android"> Stranger for Android
+  </a>
+</div>
 </body>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
